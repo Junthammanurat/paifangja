@@ -22,7 +22,7 @@ st.markdown("input the name of your favorite artist.  \n\
             ")
 
 user_input = st.text_input("Input the name here")
-st.button("Submit")
+# st.button("Submit")
 
 
 if st.button('Submit'):
