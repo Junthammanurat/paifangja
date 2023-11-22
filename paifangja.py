@@ -3,6 +3,7 @@ import openai
 import json
 
 user_api_key = st.sidebar.text_input("OpenAI API key", type="password")
+client = openai.OpenAI(api_key=user_api_key)
 
 #client = openai.OpenAI(api_key=user_api_key)
 prompt = """Act as a music expert who is passionate about the artist. my client want to know the artist's most popular song.
