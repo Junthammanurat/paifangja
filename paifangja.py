@@ -34,6 +34,7 @@ if st.button('Submit'):
         model="gpt-3.5-turbo",
         messages=messages_so_far
     )
-    #print the result on page
-    st.write(response.choices[0]['text'])
+     # Show the response from the AI in a box
+    respond = response.choices[0].text
+    print(respond)
 
