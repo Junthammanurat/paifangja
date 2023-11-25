@@ -35,10 +35,10 @@ if st.button('Submit'):
         messages=messages_so_far
     )
     st.markdown('**AI response:**')
-    answer = response.choices[0].message.content
+    ##answer = response.choices[0].message.content
 
 
-    sd = json.loads(answer)
+    ##sd = json.loads(answer)
 
-    print (sd)
+    ##print (sd)
 
